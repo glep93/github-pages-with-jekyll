@@ -6,7 +6,7 @@ lorem ipsum...
 <ul>
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="https://glep93.github.io/github-pages-with-jekyll{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
